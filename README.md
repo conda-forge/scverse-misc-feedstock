@@ -146,5 +146,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@flying-sheep](https://github.com/flying-sheep/)
+* [@grst](https://github.com/grst/)
+* [@ilan-gold](https://github.com/ilan-gold/)
 * [@ilia-kats](https://github.com/ilia-kats/)
 
