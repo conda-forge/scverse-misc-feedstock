@@ -25,8 +25,22 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - anndata
     - session-info2
     - typing_extensions
+  extras:
+    datasets:
+      - pooch
+      - pyyaml
+      - tqdm
+    settings:
+      - pydantic-settings
+      - python-dotenv
+    spatialdata:
+      - spatialdata
+    sphinx:
+      - pydocstring-rs >=0.1.13
+      - sphinx >=9
 
 tests:
   - python:
