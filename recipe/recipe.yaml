@@ -28,7 +28,8 @@ requirements:
     - anndata
     - session-info2
     - typing_extensions
-  extras:
+  {# once repodata v3 hits:
+   extras:
     datasets:
       - pooch
       - pyyaml
@@ -41,6 +42,7 @@ requirements:
     sphinx:
       - pydocstring-rs >=0.1.13
       - sphinx >=9
+  #}
 
 tests:
   - python:
