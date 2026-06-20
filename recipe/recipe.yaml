@@ -28,21 +28,20 @@ requirements:
     - anndata
     - session-info2
     - typing_extensions
-  {# once repodata v3 hits:
-   extras:
-    datasets:
-      - pooch
-      - pyyaml
-      - tqdm
-    settings:
-      - pydantic-settings
-      - python-dotenv
-    spatialdata:
-      - spatialdata
-    sphinx:
-      - pydocstring-rs >=0.1.13
-      - sphinx >=9
-  #}
+# once repodata v3 hits:
+# extras:
+#  datasets:
+#    - pooch
+#    - pyyaml
+#    - tqdm
+#  settings:
+#    - pydantic-settings
+#    - python-dotenv
+#  spatialdata:
+#    - spatialdata
+#  sphinx:
+#    - pydocstring-rs >=0.1.13
+#    - sphinx >=9
 
 tests:
   - python:
