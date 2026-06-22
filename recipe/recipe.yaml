@@ -25,12 +25,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - anndata
     - session-info2
     - typing_extensions
 # once repodata v3 hits:
 # extras:
 #  datasets:
+#    - anndata
 #    - pooch
 #    - pyyaml
 #    - tqdm
