@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.6"
+  version: "0.1.7"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/scverse-misc/scverse_misc-${{ version }}.tar.gz
-  sha256: 2310c2a0d2159311f1b44759cbd2f83b543362556396d93cb70cff01647ec835
+  sha256: c39413f53debc6c0dc2ba0d7fb5bceeff75a5a89eb7f64fcb8a172b80d0ce12b
 
 build:
   noarch: python
