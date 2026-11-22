@@ -27,21 +27,25 @@ requirements:
     - python >=${{ python_min }}
     - session-info2
     - typing_extensions
-# once repodata v3 hits:
-# extras:
-#  datasets:
-#    - anndata
-#    - pooch
-#    - pyyaml
-#    - tqdm
-#  settings:
-#    - pydantic-settings
-#    - python-dotenv
-#  spatialdata:
-#    - spatialdata
-#  sphinx:
-#    - pydocstring-rs >=0.1.13
-#    - sphinx >=9
+  extras:
+    datasets:
+      - anndata
+      - pooch
+      - pyyaml
+      - tqdm
+    logging:
+      - pydantic
+    rich:
+      - rich
+    settings:
+      - pydantic-settings
+      - python-dotenv
+    spatialdata:
+      - spatialdata
+    #sphinx:
+    #  - scverse-doc  # not on conda-forge
+    #  - pydocstring-rs  # not on conda-forge
+    #  - sphinx >=9
 
 tests:
   - python:
