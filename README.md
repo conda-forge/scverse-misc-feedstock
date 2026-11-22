@@ -126,6 +126,22 @@ mamba repoquery depends scverse-misc --channel conda-forge
 </details>
 
 
+Optional Dependencies
+---------------------
+
+`scverse-misc-feedstock` defines the following [CEP-44] optional
+dependency groups:
+
+| Install | Optional Dependencies |
+| --- | --- |
+| `scverse-misc[extras=datasets]` | `anndata` `pooch` `pyyaml` `tqdm` |
+| `scverse-misc[extras=logging]` | `pydantic` |
+| `scverse-misc[extras=rich]` | `rich` |
+| `scverse-misc[extras=settings]` | `pydantic-settings` `python-dotenv` |
+| `scverse-misc[extras=spatialdata]` | `spatialdata` |
+
+[CEP-44]: https://github.com/conda/ceps/blob/main/cep-0044.md
+
 
 About conda-forge
 =================
